@@ -1,21 +1,21 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./common.css');
+@import url('./container.css');
+
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./collection.css');
+@import url('./order.css');
+@import url('./testimonials.css');
+@import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --primary: rgba(252, 249, 249, 0.4);
+  --white: #fcf9f9;
+  --yellow: #ecd979;
+  --input: rgba(252, 249, 249, 0.5);
+  --black: #1c2225;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

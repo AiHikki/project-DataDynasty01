@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #1c2225;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SECTION STYLES */
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+header {
+  margin-bottom: 20px;
+}
+footer {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  header {
+    margin-bottom: 30px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  header {
+    margin-bottom: 25px;
+  }
+  footer {
+    margin-top: 75px;
+  }
+}
+
+h2 {
+  margin-bottom: 40px;
+}

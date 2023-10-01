@@ -1,12 +1,17 @@
 .collection {
+}
+
+.collection-container {
   background-image: url(/img/collection-img/background-element-mobile.webp);
   background-repeat: no-repeat;
   background-size: 72px;
   background-position: 0 11%;
 }
 
-.container {
-  position: relative;
+@media screen and (min-resolution: 192dpi) {
+  .collection-container {
+    background-image: url(/img/collection-img/background-element-mobile@2x.webp);
+  }
 }
 
 .collection-title {
@@ -22,13 +27,16 @@
   width: 280px;
 }
 
+.collection-card-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 .collection-card-img {
   border-radius: 4px;
 }
 
 .collection-card-caption {
   padding-top: 18px;
-  margin-bottom: 20px;
 }
 
 .card-title {
@@ -47,6 +55,7 @@
 .card-pharagraph {
   color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1;
   letter-spacing: 0.05em;
 }
@@ -58,15 +67,25 @@
 }
 
 @media screen and (min-width: 768px) {
-  .collection {
+  .collection-container {
     background-image: url(/img/collection-img/background-element-tablet.webp);
     background-size: 116px;
     background-position: 0 17%;
   }
 
+  @media screen and (min-resolution: 192dpi) {
+    .collection-container {
+      background-image: url(/img/collection-img/background-element-tablet@2x.webp);
+    }
+  }
+
   .collection-title {
     font-size: 44px;
     line-height: 1.45;
+  }
+
+  .card-pharagraph {
+    font-size: 18px;
   }
 
   .collection-card-list {
@@ -79,16 +98,26 @@
     width: 342px;
   }
 
+  .collection-card-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
   .card-title {
     font-size: 18px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .collection {
+  .collection-container {
     background-image: url(/img/collection-img/background-element-desktop.webp);
     background-size: 169px;
     background-position: 0 27%;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .collection-container {
+      background-image: url(/img/collection-img/background-element-desktop@2x.webp);
+    }
   }
 
   .collection-card-list {

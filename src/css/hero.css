@@ -1,5 +1,3 @@
-.title-button-img-container {
-}
 .hero-title {
   color: var(--white, #fcf9f9);
   font-size: 44px;
@@ -53,7 +51,7 @@
 
   .hero-title {
     font-size: 54px;
-    margin-top: 21px;
+    margin-top: 20px;
   }
 
   .star-text-img-container {
@@ -80,5 +78,23 @@
   }
   .hero-photo-embroidery-ukraine {
     max-width: 138px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title-button-img-container {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 40px;
+  }
+
+  .title-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .anchor-link {
+    margin-left: 140px;
   }
 }

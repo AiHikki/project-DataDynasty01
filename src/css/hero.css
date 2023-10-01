@@ -11,7 +11,6 @@
 }
 .anchor-link {
   color: var(--white, #fcf9f9);
-  font-size: 14px;
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.04em;
@@ -35,9 +34,7 @@
 }
 
 .icon-order-pointer {
-}
-
-.hero-photo-girl {
+  transform: rotate(-30deg);
 }
 
 .star-text-img-container {
@@ -46,55 +43,92 @@
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    display: flex;
+    position: relative;
   }
 
   .hero-title {
     font-size: 54px;
-    margin-top: 20px;
+    max-width: 535px;
+  }
+
+  .anchor-link {
+    margin-left: 140px;
+    font-size: 16px;
   }
 
   .star-text-img-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: block;
   }
 
   .star-text-container {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    justify-content: center;
     align-items: center;
-    row-gap: 16px;
+    position: absolute;
+    top: -26px;
+    right: 32px;
   }
-  .icon-star {
-  }
+
   .hero-text {
     color: rgba(252, 249, 249, 0.4);
     font-size: 16px;
-    font-style: normal;
     line-height: normal;
     letter-spacing: -0.04em;
     text-align: center;
+    width: 115px;
   }
   .hero-photo-embroidery-ukraine {
-    max-width: 138px;
+    position: absolute;
+    bottom: 0;
+    right: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .title-button-img-container {
     display: flex;
-    flex-direction: row-reverse;
     column-gap: 40px;
   }
 
-  .title-button-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .hero-title {
+    max-width: 518px;
+    margin-bottom: 40px;
   }
 
-  .anchor-link {
-    margin-left: 140px;
+  .title-button-container {
+    order: 2;
+    margin-top: 94px;
+  }
+
+  .star-text-container {
+    right: 100px;
+    top: 14px;
+  }
+
+  .hero-photo-embroidery-ukraine {
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    column-gap: 91px;
+  }
+
+  .title-button-container {
+    margin-top: 66px;
+  }
+
+  .hero-title {
+    max-width: 632px;
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+  }
+
+  .star-text-container {
+    top: 66px;
   }
 }

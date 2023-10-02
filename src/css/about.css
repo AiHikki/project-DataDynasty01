@@ -1,0 +1,120 @@
+.about-caption {
+    color: var(--white);
+}
+
+.about-paragraf {
+    color: var(--primary);
+}
+
+.about-paragraf:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .about-text-container {
+        margin-bottom: 50px;
+    }
+
+    .about-caption {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1.375;
+        letter-spacing: -0.03em;
+    }
+
+    .about-paragraf {
+        letter-spacing: -0.04em;
+    }
+
+    .about-container {
+        padding-bottom: 62px;
+        background-image: url(/img/about/about-element-mobile.webp);
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .about-container {
+            background-image: url(/img/about/about-element-mobile@2x.webp);
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-text-container {
+        margin-bottom: 40px;
+    }
+
+    .about-paragraf {
+        font-size: 16px;
+        letter-spacing: -0.04em;
+    }    
+
+    .about-caption {
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 1.45;
+        letter-spacing: -0.03em;
+    }
+
+    .about-container {
+        background-image: url(/img/about/about-element-tablet.webp);
+        padding-bottom: 50px;
+        background-size: 369px;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .about-container {
+            background-image: url(/img/about/about-element-tablet@2x.webp);
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-text-container {
+        margin-bottom: 0px;
+        row-gap: 50px;
+    }
+
+    .about-paragraf {
+        width: 436px;
+    }
+
+    .about-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(/img/about/about-element-desktop.webp);
+        background-size: 385px;
+    }
+
+    .about-img-class {
+        text-align: right;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .about-container {
+            background-image: url(/img/about/about-element-desktop@2x.webp);
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-paragraf {
+        width: 481px;
+    }
+
+    .about-container {
+        background-image: url(/img/about/about-element-maxdesktop.webp);
+        background-size: 545px;
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .about-container {
+            background-image: url(/img/about/about-element-maxdesktop@2x.webp);
+        }
+    }
+}

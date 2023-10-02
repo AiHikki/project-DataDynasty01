@@ -15,8 +15,9 @@
   line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  width: 155px;
-  height: 50px;
+  width: 153px;
+  padding: 14px 39px;
+  height: 49px;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   display: flex;
@@ -52,7 +53,8 @@
   }
 
   .anchor-link {
-    margin-left: 140px;
+    width: 168px;
+    margin-left: 141px;
     font-size: 16px;
   }
 
@@ -99,7 +101,7 @@
 
   .title-button-container {
     order: 2;
-    margin-top: 94px;
+    padding-top: 94px;
   }
 
   .star-text-container {
@@ -118,7 +120,7 @@
   }
 
   .title-button-container {
-    margin-top: 66px;
+    padding-top: 66px;
   }
 
   .hero-title {

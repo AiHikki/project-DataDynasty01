@@ -31,7 +31,7 @@
   justify-content: center;
   border-radius: 15px;
   background: rgba(252, 249, 249, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   @include hoverButton($changeBG: true, $changeBorder: true);
 }
 
@@ -171,7 +171,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .mobile-menu{
   background-image: image-set(
     url('/img/header/elements-t.png') 1x,
@@ -220,7 +220,7 @@
 }
 
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
 
   .mobile-menu{
     display: none;
@@ -231,12 +231,12 @@
     font-weight: 400;
     line-height: 1.2em;
     @include hoverButton($changeBG: false, $changeBorder: false,$changeColor: true);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .menu-list {
     display: flex;
     gap: 25px;
-    text-align: center;
     margin-left: 60px;
   }
 
@@ -258,6 +258,7 @@
     border: 1px solid rgba(252, 249, 249, 0.1);
     padding: 14px 28px;
     margin-right: 20px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .open-mobile-btn {

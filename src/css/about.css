@@ -28,7 +28,7 @@
 
     .about-container {
         padding-bottom: 62px;
-        background-image: url(../img/about/about-element-mobile.webp);
+        background-image: url(/img/about/about-element-mobile.webp);
         background-size: 250px;
         background-repeat: no-repeat;
         background-position: right bottom;
@@ -36,7 +36,7 @@
 
     @media screen and (min-resolution: 192dpi) {
         .about-container {
-            background-image: url(../img/about/about-element-mobile@2x.webp);
+            background-image: url(/img/about/about-element-mobile@2x.webp);
         }
     }
 }
@@ -59,7 +59,7 @@
     }
 
     .about-container {
-        background-image: url(../img/about/about-element-tablet.webp);
+        background-image: url(/img/about/about-element-tablet.webp);
         padding-bottom: 50px;
         background-size: 369px;
         background-repeat: no-repeat;
@@ -68,7 +68,7 @@
 
     @media screen and (min-resolution: 192dpi) {
         .about-container {
-            background-image: url(../img/about/about-element-tablet@2x.webp);
+            background-image: url(/img/about/about-element-tablet@2x.webp);
         }
     }
 }
@@ -88,7 +88,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(../img/about/about-element-desktop.webp);
+        background-image: url(/img/about/about-element-desktop.webp);
         background-size: 385px;
     }
 
@@ -98,7 +98,7 @@
 
     @media screen and (min-resolution: 192dpi) {
         .about-container {
-            background-image: url(../img/about/about-element-desktop@2x.webp);
+            background-image: url(/img/about/about-element-desktop@2x.webp);
         }
     }
 }
@@ -109,13 +109,13 @@
     }
 
     .about-container {
-        background-image: url(../img/about/about-element-maxdesktop.webp);
+        background-image: url(/img/about/about-element-maxdesktop.webp);
         background-size: 545px;
     }
 
     @media screen and (min-resolution: 192dpi) {
         .about-container {
-            background-image: url(../img/about/about-element-maxdesktop@2x.webp);
+            background-image: url(/img/about/about-element-maxdesktop@2x.webp);
         }
     }
 }

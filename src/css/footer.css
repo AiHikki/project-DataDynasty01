@@ -18,8 +18,10 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     }
 }
 
+.footer-pagination {
+    margin-bottom: 40px;}
+
 .footer-pagination-list {
-    margin-bottom: 40px;
     max-width: 280px;
     height: 61px;
     display: flex;
@@ -69,8 +71,11 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
         background-position: 100% 0;
     }
 
-    .footer-pagination-list {
+    .footer-pagination {
         margin-bottom: 80px;
+    }
+
+    .footer-pagination-list {
         max-width: 478px;
         height: auto;
         flex-wrap: nowrap;
@@ -102,7 +107,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         background-size: 336px;
     }
 
-    .footer-pagination-list {
+    .footer-pagination {
         margin-bottom: 117px;
     }
 

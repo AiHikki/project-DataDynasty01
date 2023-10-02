@@ -21,6 +21,8 @@
 }
 
 .collection-card-item {
+  margin-left: auto;
+  margin-right: auto;
   width: 280px;
 }
 

@@ -7,7 +7,7 @@
 }
 
 .about-paragraf:not(:last-child) {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -81,7 +81,6 @@
 
     .about-paragraf {
         width: 436px;
-        flex-direction: column;
     }
 
     .about-container {

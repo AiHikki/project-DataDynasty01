@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+  border: 1px solid;
+  border-color: transparent;
   background: rgba(252, 249, 249, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -140,7 +142,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .mobile-menu {
     background-image: -webkit-image-set(url("/img/header/elements-t.png") 1x, url("/img/header/elements-t@2x.png") 2x);
     background-image: image-set(url("/img/header/elements-t.png") 1x, url("/img/header/elements-t@2x.png") 2x);

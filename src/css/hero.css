@@ -1,0 +1,139 @@
+.title-button-container {
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  color: var(--white, #fcf9f9);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+.addition {
+  color: var(--yellow, #ecd979);
+}
+.anchor-link {
+  color: var(--white, #fcf9f9);
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  width: 153px;
+  height: 49px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-left: 70px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.anchor-link:hover,
+.anchor-link:focus {
+  border: 1px solid var(--yellow, #ecd979);
+}
+
+.icon-order-pointer {
+  transform: rotate(-30deg);
+}
+
+.star-text-img-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    max-width: 535px;
+    margin-bottom: 40px;
+  }
+
+  .anchor-link {
+    width: 168px;
+    margin-left: 141px;
+    font-size: 16px;
+  }
+
+  .star-text-img-container {
+    display: block;
+  }
+
+  .star-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -26px;
+    right: 32px;
+  }
+
+  .hero-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-align: center;
+    width: 115px;
+  }
+  .hero-photo-embroidery-ukraine {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title-button-img-container {
+    display: flex;
+    column-gap: 40px;
+  }
+
+  .hero-title {
+    max-width: 518px;
+  }
+
+  .title-button-container {
+    order: 2;
+    padding-top: 94px;
+    margin-bottom: 0;
+  }
+
+  .star-text-container {
+    right: 100px;
+    top: 14px;
+  }
+
+  .hero-photo-embroidery-ukraine {
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    column-gap: 91px;
+  }
+
+  .title-button-container {
+    padding-top: 66px;
+  }
+
+  .hero-title {
+    max-width: 632px;
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+  }
+
+  .star-text-container {
+    top: 66px;
+  }
+}

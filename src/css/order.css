@@ -1,0 +1,270 @@
+
+                /*=====Common Order Styles=====*/
+
+    .order-title {
+        color: var(--white, #FCF9F9);
+        font-family: 'Manrope', sans-serif;
+        margin-bottom: 40px;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.32;
+        letter-spacing: -0.03em;
+    }
+
+    .accent-colour {
+        color: var(--yellow, #ECD979);
+    }
+    
+    .contact-input {
+        width: 508px;
+        height: 50px;
+        padding: 14px 16px;
+        background: transparent;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        margin-bottom: 20px;
+        color: rgba(252, 249, 249, 0.50);
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        line-height: normal;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+
+    .comment-input {
+        width: 508px;
+        height: 196px;
+        resize: none;
+        background: transparent;
+        border-radius: 8px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        display: flex;
+        padding: 14px 16px;
+        align-items: flex-start;
+        gap: 8px;
+        flex: 1 0 0;
+        align-self: stretch;
+        margin-bottom: 40px;
+        color: rgba(252, 249, 249, 0.50);
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.02em;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+
+    .order-button {
+        display: flex;
+        color: var(--white, #FCF9F9);
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        background: transparent;
+        min-width: 168px;
+        height: 50px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+        padding: 14px 39px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+        
+    }
+    .order-btn-icon {
+        transform: rotate(-30deg);
+    }
+
+    .order-button:hover,
+    .order-button:focus {
+        border: 1px solid var(--yellow, #ECD979);
+        outline: transparent;
+    }
+    .contact-input:hover,
+    .contact-input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    outline: transparent;
+    }
+    .commen-input:hover,
+    .commen-input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    outline: transparent;
+    }
+
+    .order-gilet-icon {
+        border-radius: 4px;
+    }
+
+
+
+                /*=====Mobile Order Styles=====*/
+
+@media screen and (mini-resolution: 192dpi) and (max-width: 767px),
+        screen and (mini-resolution: 2dppx) and (max-width: 767px),
+               and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+
+.order-green-shirt-img {
+    background-image:
+    url(/img/order-img/green-shirt-mobile@2x.webp);
+    }
+    }
+
+@media screen and (max-width: 767px) {
+    .order-gilet-icon {
+        display: none;
+    }
+
+.order-green-shirt-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+    background-image: 
+    url(/img/order-img/green-shirt-mobile.webp);
+    min-width: 100%;
+    height: 550px;
+    container: none;
+    }
+
+   
+   .order-title {
+    font-size: 32px;
+    line-height: 1.38;
+   }
+         
+    .contact-input {
+        width: 100%;
+        height: 47px;
+        font-size: 14px;
+    }   
+
+    .comment-input {
+        width: 100%;
+        font-size: 16px;
+      
+       
+    }
+    .order-button {
+        font-size: 14px;
+        min-width: 145px;
+        padding: 14px 36px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+}
+    
+
+
+                /*=====Tablet Order Styles=====*/
+@media screen and (mini-resolution: 192dpi) and (min-width: 768px),
+        screen and (mini-resolution: 2dppx) and (min-width: 768px),
+               and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+
+.order-green-shirt-img {
+    background-image:
+    url(/img/order-img/green-shirt-tablet@2x.webp);
+    }
+.order-image-wrapper {
+    background-image:
+    url(/img/order-img/order-ornament@2x.png);
+}
+    }
+
+    @media screen and (min-width: 768px) {
+        .order-green-shirt-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 100px;
+            background-image: 
+            url(/img/order-img/green-shirt-tablet.webp);
+            width: 100%;
+            height: 776px;
+            }
+
+        .order-button {
+            margin-bottom: 100px;
+        }
+    }
+                 
+        .order-image-wrapper {
+            background-image: 
+            url(/img/order-img/order-ornament.png);
+            background-repeat: no-repeat;
+            background-size: ;
+            background-position: ;
+           
+            }
+
+        .order-gilet-icon {
+               margin-bottom: 79px;
+               margin-left: auto;
+               
+            }
+            
+                /*=====Desktop Order Styles=====*/
+    @media screen and (mini-resolution: 192dpi) and (min-width: 1280px),
+        screen and (mini-resolution: 2dppx) and (min-width: 1280px),
+               and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+
+    .order-green-shirt-img {
+    background-image:
+    url(/img/order-img/green-shirt-desktop@2x.webp);
+    }
+
+    .order-image-wrapper {
+        background-image:
+        url(/img/order-img/order-ornament@2x.png);
+    }
+    }
+
+    @media screen and (min-width: 1280px)  {
+        .order-green-shirt-img {
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 150px;
+            background-image: 
+            url(/img/order-img/green-shirt-desktop.webp);
+            width: 100%;
+            height: 776px;
+            }
+    .order-wrapper {
+        display: flex;
+        column-gap: 50px;
+          }
+    .order-image-wrapper {
+        order: 1;
+    }
+    .order-form-wrapper {
+        order: 2;
+    }
+    }
+                
+                /*=====Desktop Max Order Styles=====*/
+
+ @media screen and (mini-resolution: 192dpi) and (min-width: 1440px),
+        screen and (mini-resolution: 2dppx) and (min-width: 1440px),
+               and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+
+
+.order-image-wrapper {
+        background-image:
+        url(/img/order-img/order-ornament@2x.png);
+    }
+    }
+
+          
+
+
+

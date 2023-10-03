@@ -51,6 +51,7 @@
 
   .hero-title {
     font-size: 54px;
+    line-height: 1.18;
     max-width: 535px;
     margin-bottom: 40px;
   }
@@ -74,6 +75,15 @@
     position: absolute;
     top: -26px;
     right: 32px;
+  }
+
+  .icon-star {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .icon-star:hover,
+  .icon-star:focus {
+    transform: rotate(-360deg);
   }
 
   .hero-text {

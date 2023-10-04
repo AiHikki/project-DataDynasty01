@@ -26,7 +26,7 @@
         letter-spacing: -0.04em;
     }
 
-    .about-container {
+    .about-section-class {
         padding-bottom: 62px;
         background-image: url(/img/about/about-element-mobile.webp);
         background-size: 250px;
@@ -35,7 +35,7 @@
     }
 
     @media screen and (min-resolution: 192dpi) {
-        .about-container {
+        .about-section-class {
             background-image: url(/img/about/about-element-mobile@2x.webp);
         }
     }
@@ -58,7 +58,7 @@
         letter-spacing: -0.03em;
     }
 
-    .about-container {
+    .about-section-class {
         background-image: url(/img/about/about-element-tablet.webp);
         padding-bottom: 50px;
         background-size: 369px;
@@ -67,7 +67,7 @@
     }
 
     @media screen and (min-resolution: 192dpi) {
-        .about-container {
+        .about-section-class {
             background-image: url(/img/about/about-element-tablet@2x.webp);
         }
     }
@@ -83,12 +83,15 @@
         width: 436px;
     }
 
+    .about-section-class {
+        background-image: url(/img/about/about-element-desktop.webp);
+        background-size: 385px;
+    }
+
     .about-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(/img/about/about-element-desktop.webp);
-        background-size: 385px;
     }
 
     .about-img-class {
@@ -96,7 +99,7 @@
     }
 
     @media screen and (min-resolution: 192dpi) {
-        .about-container {
+        .about-section-class {
             background-image: url(/img/about/about-element-desktop@2x.webp);
         }
     }
@@ -107,13 +110,13 @@
         width: 481px;
     }
 
-    .about-container {
+    .about-section-class {
         background-image: url(/img/about/about-element-maxdesktop.webp);
         background-size: 545px;
     }
 
     @media screen and (min-resolution: 192dpi) {
-        .about-container {
+        .about-section-class {
             background-image: url(/img/about/about-element-maxdesktop@2x.webp);
         }
     }

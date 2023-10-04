@@ -73,10 +73,8 @@
 .card-overlay-btn {
   width: 168px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 10px;
-  text-align: left;
   padding: 14px 39px;
   background-color: var(--black);
   border-radius: 15px;

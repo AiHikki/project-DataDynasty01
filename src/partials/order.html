@@ -1,3 +1,86 @@
-<section>
-  <div class="container"></div>
+
+<section class="order" id="order">
+ 
+    <div class="order-green-shirt-img"></div>
+
+<div class="order-wrapper container">
+  
+  <div class="order-form-wrapper">
+  <h2 class="order-title"><span class="accent-colour">Your order</span> is our priority: Personalized approach and quality of service</h2>
+   
+  <form class="contact-user-form">
+    
+    <label class="contact-label" for="user-name"></label>
+     
+         <input 
+          class="contact-input" 
+          type="text" 
+          id="user-name"
+          name="user-name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+          title="Maria"
+          placeholder="Enter your full name"
+          required
+        />
+         
+    <label class="contact-label" for="user-email"></label>
+       
+       <input 
+          class="contact-input" 
+          type="email" 
+          id="user-email"
+          name="user-email"
+          placeholder="Enter your email"
+          required 
+        />
+      
+ 
+    <label class="contact-label" for="user-comment"></label>
+  
+        <textarea
+        class="comment-input" 
+        name="user-comment"
+        id="user-comment"
+        placeholder="Comments"
+        ></textarea>
+    
+          <button class="order-button" type="submit">
+             SEND
+              <svg 
+              class="order-btn-icon"
+              width="26"
+              height="10"
+              aria-label="button-arrow">
+              <use href="./img/sprite.svg#icon-arrow"></use>
+              </svg>
+          </button>
+       </form>
+  </div>
+
+    <div class="order-image-wrapper">   
+       <img 
+       class="order-gilet-icon"
+       srcset="
+
+       ./img/order-img/gilet-desktop.webp    524w,
+       ./img/order-img/gilet-desktop@2x.webp 1048w,
+       ./img/order-img/gilet-tablet.webp     638w,  
+       ./img/order-img/gilet-tablet@2x.webp  1276w"
+               
+             
+   sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+       src="./img/order-img/gilet-tablet638.webp"
+       alt="Shirt and gilet foto"
+       loading="lazy"> 
+
+    </div>
+    
+       
+</div>
+
 </section>
+
+
+
+
+

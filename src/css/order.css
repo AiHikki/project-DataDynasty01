@@ -80,7 +80,6 @@
         justify-content: center;
         gap: 10px;
         transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-        
     }
     .order-btn-icon {
         transform: rotate(-30deg);
@@ -88,24 +87,22 @@
 
     .order-button:hover,
     .order-button:focus {
-        border: 1px solid var(--yellow, #ECD979);
+        border-color: var(--yellow, #ECD979);
         outline: transparent;
     }
     .contact-input:hover,
     .contact-input:focus {
-    border: 1px solid rgba(252, 249, 249, 0.60);
+    border-color:rgba(252, 249, 249, 0.60);
     outline: transparent;
     }
-    .commen-input:hover,
-    .commen-input:focus {
-    border: 1px solid rgba(252, 249, 249, 0.60);
+    .comment-input:hover,
+    .comment-input:focus {
+    border-color:rgba(252, 249, 249, 0.60);
     outline: transparent;
     }
-
     .order-gilet-icon {
         border-radius: 4px;
     }
-
 
 
                 /*=====Mobile Order Styles=====*/
@@ -136,24 +133,18 @@
     height: 550px;
     container: none;
     }
-
-   
-   .order-title {
+    .order-title {
     font-size: 32px;
     line-height: 1.38;
    }
-         
     .contact-input {
         width: 100%;
         height: 47px;
         font-size: 14px;
     }   
-
     .comment-input {
         width: 100%;
         font-size: 16px;
-      
-       
     }
     .order-button {
         font-size: 14px;
@@ -162,11 +153,8 @@
         margin-left: auto;
         margin-right: auto;
         }
-
 }
     
-
-
                 /*=====Tablet Order Styles=====*/
 @media screen and (mini-resolution: 192dpi) and (min-width: 768px),
         screen and (mini-resolution: 2dppx) and (min-width: 768px),
@@ -192,27 +180,28 @@
             width: 100%;
             height: 776px;
             }
+   
+             
+        .order {
+            background-image: 
+            url(/img/order-img/order-ornament.png);
+            background-repeat: no-repeat;
+            background-position: 0% 100%;
+                   
+            }
+
+        .order-gilet-icon {
+               margin-bottom: 29px;
+               margin-left: auto;
+            }
+        }  
+    @media screen and (min-width: 768px) and (max-width: 1279px)  {
 
         .order-button {
             margin-bottom: 100px;
         }
     }
-                 
-        .order-image-wrapper {
-            background-image: 
-            url(/img/order-img/order-ornament.png);
-            background-repeat: no-repeat;
-            background-size: ;
-            background-position: ;
-           
-            }
 
-        .order-gilet-icon {
-               margin-bottom: 79px;
-               margin-left: auto;
-               
-            }
-            
                 /*=====Desktop Order Styles=====*/
     @media screen and (mini-resolution: 192dpi) and (min-width: 1280px),
         screen and (mini-resolution: 2dppx) and (min-width: 1280px),

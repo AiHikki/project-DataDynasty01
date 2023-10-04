@@ -1,6 +1,6 @@
 /* ======= MOBILE =======*/
 
-.footer-conteiner{
+.footer-section{
     padding-top: 40px;
     padding-bottom: 292px;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
@@ -13,7 +13,7 @@
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .footer-conteiner {
+    .footer-section {
         background-image: url(/img/footer/footer-bg-mobile@2x.png);
     }
 }
@@ -64,7 +64,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 /* ======= TABLET ======= */
 
 @media screen and (min-width: 768px) {
-    .footer-conteiner {
+    .footer-section {
         padding-bottom: 40px;
         background-image: url(/img/footer/footer-bg-tablet.png);
         background-size: 174px;
@@ -93,7 +93,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .footer-conteiner {
+    .footer-section {
         background-image: url(/img/footer/footer-bg-tablet@2x.png);
     }
 }
@@ -102,7 +102,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 /* ======= DESKTOP 1280 ======= */
 
 @media screen and (min-width: 1280px) {
-    .footer-conteiner {
+    .footer-section {
         background-image: url(/img/footer/footer-bg-desktop1.png);
         background-size: 336px;
     }
@@ -121,7 +121,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-    .footer-conteiner {
+    .footer-section {
         background-image: url(/img/footer/footer-bg-desktop1@2x.png);
     }
 }
@@ -129,7 +129,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 /* ======= DESKTOP 1440 ======= */
 
 @media screen and (min-width: 1440px) {
-    .footer-conteiner {
+    .footer-section {
         background-image: url(/img/footer/footer-bg-desktop2.png);
         background-size: 496px;
     }
@@ -138,7 +138,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
 screen and (min-resolution: 2dppx) and (min-width: 1440px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
-    .footer-conteiner {
+    .footer-section {
         background-image: url(/img/footer/footer-bg-desktop2@2x.png);
     }
 }

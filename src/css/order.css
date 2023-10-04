@@ -107,9 +107,9 @@
 
                 /*=====Mobile Order Styles=====*/
 
-@media screen and (mini-resolution: 192dpi) and (max-width: 767px),
-       screen and (mini-resolution: 2dppx) and (max-width: 767px),
-              and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+       screen and (min-resolution: 2dppx) and (max-width: 767px),
+       screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 
     .order-green-shirt-img {
     background-image: url(/img/order-img/green-shirt-mobile@2x.webp);
@@ -154,9 +154,9 @@
     }
     
                 /*=====Tablet Order Styles=====*/
-@media screen and (mini-resolution: 192dpi) and (min-width: 768px),
-        screen and (mini-resolution: 2dppx) and (min-width: 768px),
-               and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px),
+        screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
     .order-green-shirt-img {
         background-image: url(/img/order-img/green-shirt-tablet@2x.webp);
@@ -200,9 +200,9 @@
     }
 
                 /*=====Desktop Order Styles=====*/
-@media screen and (mini-resolution: 192dpi) and (min-width: 1280px),
-       screen and (mini-resolution: 2dppx) and (min-width: 1280px),
-              and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+       screen and (min-resolution: 2dppx) and (min-width: 1280px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
 
     .order-green-shirt-img {
         background-image: url(/img/order-img/green-shirt-desktop@2x.webp);
@@ -252,9 +252,9 @@
                 
                 /*=====Desktop Max Order Styles=====*/
 
- @media screen and (mini-resolution: 192dpi) and (min-width: 1440px),
-        screen and (mini-resolution: 2dppx) and (min-width: 1440px),
-               and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+ @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px),
+        screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 
     .order-green-shirt-img {
         background-image: url(/img/order-img/green-shirt-desktop-max@2x.webp);

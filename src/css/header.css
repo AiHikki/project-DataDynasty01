@@ -7,6 +7,7 @@
   border-radius: 15px;
   border: 1px solid;
   border-color: transparent;
+  outline: transparent;
   background: rgba(252, 249, 249, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -216,6 +217,7 @@
     line-height: 1.4;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
+    outline: transparent;
     padding: 14px 28px;
     margin-right: 20px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
